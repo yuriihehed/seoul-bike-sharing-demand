@@ -1,0 +1,67 @@
+                                                Initial Regression Model
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                         Dependent Variable: Rented_Bike_Count                                          
+
+Source                 DF  Sum of Squares    Mean Square   F Value    Pr > F
+---------------  --------  --------------  -------------  --------  --------
+Model                  11  21462643.77787  1951149.43435      5.42    <.0001
+Error                  58  20875202.16499   359917.27871                    
+Corrected Total        69  42337845.94286                                   
+
+Root MSE         599.93106    R-Square            0.5069
+Dependent Mean     745.02857    Adj R-Sq            0.4134
+Coeff Var         80.52457
+
+                              Parameter Estimates                              
+
+Variable                     DF    Estimate  Standard Error   t Value  Pr > |t|
+---------------------  --------  ----------  --------------  --------  --------
+Intercept                     1   470.10045       798.88860      0.59    0.5585
+Temperature                   1   -14.18692        38.87429     -0.36    0.7165
+Humidity                      1   -25.12660        13.16378     -1.91    0.0612
+Wind_speed                    1   149.24963        80.91066      1.84    0.0702
+Visibility                    1     0.16368         0.15301      1.07    0.2892
+Dew_point_temperature         1    69.33843        41.05107      1.69    0.0966
+Solar_Radiation               1  -179.91671       133.13808     -1.35    0.1818
+Rainfall                      1  -133.35655       119.56106     -1.12    0.2693
+Snowfall                      1   190.87939       506.45461      0.38    0.7076
+d_Warm_Season                 1   210.86322       425.91149      0.50    0.6224
+d_Cold_Season                 1   259.23723       397.87375      0.65    0.5173
+d_Holiday_Flag                1  -113.32057       234.67719     -0.48    0.6310
+d_Functioning_Flag            1  1130.22944       324.82205      3.48    0.0010
+
+                                                Multicollinearity Check
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                         Dependent Variable: Rented_Bike_Count                                          
+
+Source                 DF  Sum of Squares    Mean Square   F Value    Pr > F
+---------------  --------  --------------  -------------  --------  --------
+Model                  11  21462643.77787  1951149.43435      5.42    <.0001
+Error                  58  20875202.16499   359917.27871                    
+Corrected Total        69  42337845.94286                                   
+
+Root MSE         599.93106    R-Square            0.5069
+Dependent Mean     745.02857    Adj R-Sq            0.4134
+Coeff Var         80.52457
+
+                                             Parameter Estimates                                              
+
+Variable                     DF    Estimate  Standard Error   t Value  Pr > |t|  Tolerance  Variance Inflation
+---------------------  --------  ----------  --------------  --------  --------  ---------  ------------------
+Intercept                     1   470.10045       798.88860      0.59    0.5585          .                   .
+Temperature                   1   -14.18692        38.87429     -0.36    0.7165    0.02514            39.77188
+Humidity                      1   -25.12660        13.16378     -1.91    0.0612    0.06724            14.87222
+Wind_speed                    1   149.24963        80.91066      1.84    0.0702    0.67422             1.48319
+Visibility                    1     0.16368         0.15301      1.07    0.2892    0.62703             1.59482
+Dew_point_temperature         1    69.33843        41.05107      1.69    0.0966    0.01907            52.43145
+Solar_Radiation               1  -179.91671       133.13808     -1.35    0.1818    0.28739             3.47958
+Rainfall                      1  -133.35655       119.56106     -1.12    0.2693    0.75513             1.32428
+Snowfall                      1   190.87939       506.45461      0.38    0.7076    0.88046             1.13577
+d_Warm_Season                 1   210.86322       425.91149      0.50    0.6224    0.00000                   .
+d_Cold_Season                 1   259.23723       397.87375      0.65    0.5173    0.00000                   .
+d_Holiday_Flag                1  -113.32057       234.67719     -0.48    0.6310    0.76244             1.31157
+d_Functioning_Flag            1  1130.22944       324.82205      3.48    0.0010    0.73473             1.36105

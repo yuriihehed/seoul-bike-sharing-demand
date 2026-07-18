@@ -1,0 +1,36 @@
+                                            New Observations for Prediction
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                         Dependent Variable: Rented_Bike_Count                                          
+
+Source                 DF  Sum of Squares    Mean Square   F Value    Pr > F
+---------------  --------  --------------  -------------  --------  --------
+Model                   7  15759703.44727  2251386.20675      5.25    <.0001
+Error                  62  26578142.49558   428679.71767                    
+Corrected Total        69  42337845.94286                                   
+
+Root MSE         654.73637    R-Square            0.3722
+Dependent Mean     745.02857    Adj R-Sq            0.3014
+Coeff Var         87.88071
+
+                           Parameter Estimates                           
+
+Variable               DF    Estimate  Standard Error   t Value  Pr > |t|
+---------------  --------  ----------  --------------  --------  --------
+Intercept               1   911.35005       388.60484      2.35    0.0222
+Temperature             1    47.69613        10.39449      4.59    <.0001
+Humidity                1   -12.55750         5.88392     -2.13    0.0368
+Wind_speed              1    42.77456        80.68017      0.53    0.5979
+Solar_Radiation         1  -273.91742       135.68786     -2.02    0.0478
+Rainfall                1  -114.11490       125.31874     -0.91    0.3660
+d_Holiday_Flag          1    -5.55634       248.55995     -0.02    0.9822
+d_Warm_Season           1   114.56048       205.77748      0.56    0.5797
+
+                                            Predictions for New Observations
+
+
+  Obs  Temperature  Humidity  Wind_speed  Solar_Radiation  Rainfall  d_Holiday_Flag  d_Warm_Season           MODEL1
+-----  -----------  --------  ----------  ---------------  --------  --------------  -------------  ---------------
+    1           25        60           3              1.2         0               0              1  1264.4867804798
+    2           30        55           2              1.8         0               0              1   1358.629918658
