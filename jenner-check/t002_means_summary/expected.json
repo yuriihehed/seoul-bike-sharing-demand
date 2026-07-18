@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-18T15:05:44Z",
+  "_captured_run_id": "r_8069d187ce754107b6847b1dace8af14",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 70 rows from DATALINES.",
+    "NOTE: Wrote bike_data (70 rows, 14 columns).",
+    "NOTE: PROC MEANS statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

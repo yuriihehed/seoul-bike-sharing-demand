@@ -1,0 +1,73 @@
+                               Normal Q-Q Plot and Normality Tests for Rented Bike Count
+
+                                                The UNIVARIATE Procedure
+                                              Variable:  Rented_Bike_Count
+
+                                                        Moments
+
+N                                 70    Sum Weights                       70
+Mean                      745.028571    Sum Observations        52152.000000
+Std Deviation             783.321116    Variance               613591.970186
+Skewness                    1.241807    Kurtosis                    0.832886
+Uncorrected SS        81192576.000000    Corrected SS          42337845.942857
+Coeff Variation           105.139742    Std Error Mean             93.624781
+
+            Basic Statistical Measures            
+
+Location              Variability                 
+--------  ----------  -------------  -------------
+Mean      745.028571  Std Deviation     783.321116
+Median    549.500000  Variance       613591.970186
+Mode        0.000000  Range            3130.000000
+
+Quantiles (Definition 5)
+
+Quantile       Estimate
+----------  -----------
+0% Min         0.000000
+1%             0.000000
+5%             0.000000
+10%           32.000000
+25% Q1       134.000000
+50% Median   549.500000
+75% Q3      1308.000000
+90%         1883.500000
+95%         2460.000000
+99%         3130.000000
+100% Max    3130.000000
+
+          Extreme Observations           
+
+Lowest              Highest              
+--------  --------  --------  -----------
+Value     0.000000  Value     2081.000000
+Value     0.000000  Value     2460.000000
+Value     0.000000  Value     2505.000000
+Value     0.000000  Value     2965.000000
+Value     0.000000  Value     3130.000000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.842894624  0.000000402
+Kolmogorov-Smirnov  0.170772965  0.029654476
+Anderson-Darling    3.746416834    0.0001
+Cramer-von Mises    0.658441838  0.015815199
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         7.957600171         0
+Sign                     32.5         0
+Signed Rank              2145         0

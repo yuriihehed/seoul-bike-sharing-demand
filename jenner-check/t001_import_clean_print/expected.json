@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-18T15:05:44Z",
+  "_captured_run_id": "r_d38a6eaf79a941659b813b97633fc082",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 70 rows from DATALINES.",
+    "NOTE: Wrote bike_data (70 rows, 14 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 14 variables",
+    "NOTE: Wrote bike_data (70 rows, 18 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

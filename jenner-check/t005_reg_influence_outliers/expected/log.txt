@@ -1,0 +1,56 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA bike_data
+
+NOTE: Processing inline DATALINES (70 lines)
+
+NOTE: Read 70 rows from DATALINES.
+NOTE: Wrote bike_data (70 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bike_data
+
+
+NOTE: Read 70 rows from bike_data.
+NOTE: Wrote bike_data (70 rows, 18 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA bike_data
+
+
+NOTE: Read 70 rows from bike_data.
+NOTE: Wrote bike_data (70 rows, 19 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Influential Points and Diagnostics.
+NOTE: PROC REG data=bike_data
+
+NOTE: PROC REG: processed 1 job(s) in batch
+NOTE: Output dataset residuals written.
+NOTE: ODS plot written: reg_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: reg_residual_histogram_panel.spec.json
+NOTE: ODS plot written: reg_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: reg_qq_plot.spec.json
+NOTE: ODS plot written: reg_cooksd.spec.json
+NOTE: PROC REG ODS Graphics generated.
+NOTE: Option TITLE changed to Identifying Influential Points and Outliers.
+NOTE: PROC SQL 
+
+NOTE: Macro variable N = 70
+NOTE: PROC SQL statement used.
+NOTE: DATA influential_points
+
+
+NOTE: Read 70 rows from residuals.
+NOTE: Wrote influential_points (3 rows, 24 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Influential Points and Outliers.
+NOTE: PROC PRINT data=influential_points
+
+NOTE: PROC PRINT completed: 3 observations printed, 5 variables

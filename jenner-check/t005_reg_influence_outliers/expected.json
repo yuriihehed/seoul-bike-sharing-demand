@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-18T15:05:44Z",
+  "_captured_run_id": "r_2342eea3d6384726aeef8a199d107550",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 70 rows from DATALINES.",
+    "NOTE: Wrote bike_data (70 rows, 19 columns).",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

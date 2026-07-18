@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_univariate_normal",
+  "source_file": "project-seoul-bike-sharing-demand/Code (SAS)/DSC323_Final_Project_Yurii_Hehediush.sas",
+  "source_blob_sha": "6d68645753f667cb09475aae42071c3cba8f74c5",
+  "source_commit": "5d865d7c80cf33e98b11b1d201359e2039a0bfde",
+  "notes": "Normality diagnostics: the project's PROC UNIVARIATE normal + normal Q-Q plot technique, run on the response variable Rented_Bike_Count. Data: an inline 70-row sample of the project's SeoulBikeSharing.csv, stratified so all four seasons plus holiday and non-functioning rows appear; options obs=100 caps the captured run."
+}
